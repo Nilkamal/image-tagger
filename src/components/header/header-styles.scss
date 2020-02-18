@@ -1,0 +1,49 @@
+
+header {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    
+    h1 {
+        color: #FF5733;   
+        width: 40%;
+        cursor: pointer;
+    }
+
+    nav {
+        width: 60%;
+        position: relative;
+
+        ul {
+            display: inline-block;
+            position: absolute;
+            left: 40%;
+            top: 20%;
+
+
+            li {
+                list-style-type: none;
+                display: inline-block;
+                padding-right: 10px;
+                font-size: 15px;
+
+                a {
+                    color: #8D5C5C;
+                    font-size: 1.4em;
+                    text-decoration: none;
+
+                   
+                }
+                a:hover {
+                    color: #FF5733
+                }
+            }
+        }
+
+
+    }
+
+
+
+
+}
